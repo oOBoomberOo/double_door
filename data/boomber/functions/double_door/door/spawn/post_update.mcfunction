@@ -1,0 +1,1 @@
+tag @s remove boomber.double_door.door.spawn

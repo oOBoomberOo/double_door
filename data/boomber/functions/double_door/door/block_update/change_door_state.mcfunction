@@ -1,0 +1,2 @@
+execute if entity @s[tag=boomber.double_door.open] as @e[type=area_effect_cloud, tag=boomber.double_door.door, distance=..0.3] run function boomber:double_door/door/block_update/open
+execute if entity @s[tag=boomber.double_door.close] as @e[type=area_effect_cloud, tag=boomber.double_door.door, distance=..0.3] run function boomber:double_door/door/block_update/close

@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"oak_door": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:jungle_door"
+				}
+			}
+		}
+	},
+	"parent": "boomber:double_door/event/root",
+	"rewards": {
+		"function": "boomber:double_door/event/place/jungle_door"
+	}
+}

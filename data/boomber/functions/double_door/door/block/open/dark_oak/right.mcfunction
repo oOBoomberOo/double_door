@@ -1,0 +1,8 @@
+execute if entity @s[tag=boomber.double_door.facing.east] run setblock ~ ~ ~ minecraft:dark_oak_door[facing=east, half=lower, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.east] run setblock ~ ~1 ~ minecraft:dark_oak_door[facing=east, half=upper, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.west] run setblock ~ ~ ~ minecraft:dark_oak_door[facing=west, half=lower, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.west] run setblock ~ ~1 ~ minecraft:dark_oak_door[facing=west, half=upper, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.north] run setblock ~ ~ ~ minecraft:dark_oak_door[facing=north, half=lower, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.north] run setblock ~ ~1 ~ minecraft:dark_oak_door[facing=north, half=upper, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.south] run setblock ~ ~ ~ minecraft:dark_oak_door[facing=south, half=lower, hinge=right, open=true]
+execute if entity @s[tag=boomber.double_door.facing.south] run setblock ~ ~1 ~ minecraft:dark_oak_door[facing=south, half=upper, hinge=right, open=true]
