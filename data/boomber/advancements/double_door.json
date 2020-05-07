@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Double Door",
+		"description": "Opening door is now twice as efficient!",
+		"icon": {
+			"item": "minecraft:oak_door"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

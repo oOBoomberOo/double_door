@@ -1,14 +1,15 @@
 {
 	"display": {
-		"title": "Installed Datapacks",
+		"title": "Boomber",
 		"description": "",
 		"icon": {
-			"item": "minecraft:knowledge_book"
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: 'Boomber'}"
 		},
-		"background": "minecraft:textures/block/black_concrete_powder.png",
 		"show_toast": false,
 		"announce_to_chat": false
 	},
+	"parent": "global:root",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
