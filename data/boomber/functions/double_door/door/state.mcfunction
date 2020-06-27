@@ -1,2 +1,0 @@
-execute if entity @s[tag=boomber.double_door.close] if block ~ ~ ~ #boomber:double_door/doors[open=true] run function boomber:double_door/door/state/open
-execute if entity @s[tag=boomber.double_door.open] if block ~ ~ ~ #boomber:double_door/doors[open=false] run function boomber:double_door/door/state/close
