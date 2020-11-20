@@ -4,13 +4,13 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"item": {
-					"item": "minecraft:{{variant}}"
+					"item": "minecraft:[variant]"
 				}
 			}
 		}
 	},
 	"parent": "boomber:double_door/event/root",
 	"rewards": {
-		"function": "boomber:double_door/event/{{variant}}/place"
+		"function": "boomber:double_door/event/[variant]/place"
 	}
 }
