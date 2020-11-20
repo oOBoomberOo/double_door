@@ -1,0 +1,1 @@
+execute as @e[type=area_effect_cloud, tag=boomber.double_door.door] at @s run function boomber:double_door/door/main
