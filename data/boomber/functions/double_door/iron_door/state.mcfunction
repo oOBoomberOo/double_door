@@ -1,0 +1,2 @@
+execute if score @s bb.dd.state = #state.close bb.dd.enum if block ~ ~ ~ minecraft:iron_door[open=true] run function boomber:double_door/iron_door/event/open
+execute if score @s bb.dd.state = #state.open bb.dd.enum if block ~ ~ ~ minecraft:iron_door[open=false] run function boomber:double_door/iron_door/event/close

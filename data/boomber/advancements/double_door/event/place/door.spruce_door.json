@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"oak_door": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spruce_door"
+				}
+			}
+		}
+	},
+	"parent": "boomber:double_door/event/root",
+	"rewards": {
+		"function": "boomber:double_door/event/spruce_door/place"
+	}
+}
