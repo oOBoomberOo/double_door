@@ -1,0 +1,1 @@
+execute as @e[type=marker, tag=double_door.[variant], distance=..0.3] at @s run function boomber:double_door/[variant]/method/open

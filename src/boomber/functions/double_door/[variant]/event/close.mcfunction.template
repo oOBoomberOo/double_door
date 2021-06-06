@@ -1,0 +1,11 @@
+data modify entity @s data.state set value 'close'
+
+execute if block ~ ~ ~ [variant][hinge=left,facing=east,open=false] positioned ~ ~ ~1 if block ~ ~ ~ [variant][hinge=right,facing=east,open=true] run function boomber:double_door/[variant]/method/close_as
+execute if block ~ ~ ~ [variant][hinge=left,facing=west,open=false] positioned ~ ~ ~-1 if block ~ ~ ~ [variant][hinge=right,facing=west,open=true] run function boomber:double_door/[variant]/method/close_as
+execute if block ~ ~ ~ [variant][hinge=left,facing=north,open=false] positioned ~1 ~ ~ if block ~ ~ ~ [variant][hinge=right,facing=north,open=true] run function boomber:double_door/[variant]/method/close_as
+execute if block ~ ~ ~ [variant][hinge=left,facing=south,open=false] positioned ~-1 ~ ~ if block ~ ~ ~ [variant][hinge=right,facing=south,open=true] run function boomber:double_door/[variant]/method/close_as
+
+execute if block ~ ~ ~ [variant][hinge=right,facing=east,open=false] positioned ~ ~ ~-1 if block ~ ~ ~ [variant][hinge=left,facing=east,open=true] run function boomber:double_door/[variant]/method/close_as
+execute if block ~ ~ ~ [variant][hinge=right,facing=west,open=false] positioned ~ ~ ~1 if block ~ ~ ~ [variant][hinge=left,facing=west,open=true] run function boomber:double_door/[variant]/method/close_as
+execute if block ~ ~ ~ [variant][hinge=right,facing=north,open=false] positioned ~-1 ~ ~ if block ~ ~ ~ [variant][hinge=left,facing=north,open=true] run function boomber:double_door/[variant]/method/close_as
+execute if block ~ ~ ~ [variant][hinge=right,facing=south,open=false] positioned ~1 ~ ~ if block ~ ~ ~ [variant][hinge=left,facing=south,open=true] run function boomber:double_door/[variant]/method/close_as

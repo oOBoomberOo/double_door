@@ -1,0 +1,5 @@
+#define tag double_door.door
+#define tag double_door.temp
+#define tag double_door.[variant]
+
+summon marker ~ ~ ~ {data: {state: 'close'}, Tags: ["double_door.door", "double_door.temp", "double_door.[variant]", "global.ignore", "global.ignore.pos", "global.ignore.kill", "global.ignore.gui"]}

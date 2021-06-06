@@ -1,0 +1,2 @@
+execute if entity @s[nbt={data: {state: 'close'}}] if block ~ ~ ~ minecraft:[variant][open=true] run function boomber:double_door/[variant]/event/open
+execute if entity @s[nbt={data: {state: 'open'}}] if block ~ ~ ~ minecraft:[variant][open=false] run function boomber:double_door/[variant]/event/close
