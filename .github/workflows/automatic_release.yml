@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: oOBoomberOo/megu-pipeline@v1
+        with:
+          version: '0.3.0'
 
       - name: Build Project
         run: ./build
